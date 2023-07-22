@@ -146,15 +146,15 @@ main {
    position: absolute;
    width: 892px;
    top: 65%;
-   left: 70%;
+   left: 110%;
    
 }
 .mountain-10a{
    z-index: 3;
    position: absolute;
    width: 592px;
-   top: 65%;
-   left: 85%;
+   top: 58%;
+   left: 67%;
    
 }
 .mountain-10b{
@@ -162,7 +162,7 @@ main {
    position: absolute;
    width: 692px;
    top: 65%;
-   left: 100%;
+   left: 89%;
    
 }
 
@@ -192,15 +192,19 @@ main {
    width: 272px;
    /* top: calc(50% +113px);
    left: calc(50% -457px); */
-   top: 65%;
-   left: 32%;
+   top: 50%;
+   left: 36%;
    
 }
+
+
+
+
 .mountain-8{
    z-index: 6;
    position: absolute;
    width: 810px;
-   top: 80%;
+   top: 87%;
    left: 40%;
    
 }
@@ -225,11 +229,11 @@ main {
    
 }
 .mountain-7a{
-   z-index: 5;
+   z-index: 3;
    position: absolute;
    width: 268px;
-   top: 70%;
-   left: 25%;
+   top: 60%;
+   left: 24%;
    
 }
 .mountain-7b{
@@ -241,19 +245,23 @@ main {
    
 }
 .mountain-7c{
-   z-index: 4;
+   z-index: 2;
    position: absolute;
    width: 468px;
-   top: 40%;
-   left: 35%;
+   top: 80%;
+   left: 5%;
    
 }
+
+
+
+
 
 .text {
    max-width: 80vw;
    position: absolute;
    z-index: 5;
-   top: 28%;
+   top: 31%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
@@ -321,18 +329,18 @@ main {
 }
 
 .mountain-4{
-   z-index: 10;
+   z-index: 7;
    position: absolute;
    width: 885px;
-   top: 95%;
-   left: 90%;
+   top: 100%;
+   left:100%;
    
 }
 .mountain-3{
    z-index: 15;
    position: absolute;
    width: 585px;
-   top: 95%;
+   top: 99%;
    left: 38%;
    
 }
@@ -348,7 +356,7 @@ main {
    z-index: 17;
    position: absolute;
    width: 785px;
-   top: 90%;
+   top: 95%;
    left: 10%;
    
 }
@@ -356,7 +364,7 @@ main {
    z-index: 16;
    position: absolute;
    width: 585px;
-   top: 90%;
+   top: 95%;
    left: 20%;
    
 }
