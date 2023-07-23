@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.b01 {
+  position: relative;
+  left: 26%;
+}
+
+.b02 {
+  position: relative;
+  left: -33%;
+}
+
+.windmill {
+  position: relative;
+  left: 25%;
+  width: 100px;
+  height: 100px;
+}
+
+.windmillBase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rotateContainer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.rotatingObject {
+  width: 100px; 
+  height: 4px;
+  background-color: #333; 
+  position: absolute;
+  top: 380%; 
+  left: 591%;
+  transform-origin: center; 
+  animation: rotate 1.6s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
